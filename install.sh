@@ -32,9 +32,11 @@ SOFTWARE=$(whiptail --title "Installer" --checklist \
     "virtualbox" "gestore macchine virtuale (deb)" off\
     3>&1 1>&2 2>&3 )
 
+bash coding.sh $SOFTWARE
 
 echo $SOFTWARE | grep -w -q "update"
 if [ $? -eq 0 ]; then
+    echo "NO"
     apt update && apt upgrade -y
 fi
 
