@@ -1,1 +1,1 @@
-apt --fix-broken install -y
+sudo apt --fix-broken install -y

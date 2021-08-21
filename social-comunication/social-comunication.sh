@@ -1,6 +1,6 @@
 echo "Social-comunication"
 SOFTWARE=$@
-elements=( "telegram" "discord" "zoom" "skype") 
+elements=( "telegram" "discord" "zoom" "skype" "whatsdesk" ) 
 
 for elem in "${elements[@]}"
 do

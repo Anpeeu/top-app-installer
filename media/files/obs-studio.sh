@@ -1,1 +1,1 @@
-snap install obs-studio
+sudo snap install obs-studio

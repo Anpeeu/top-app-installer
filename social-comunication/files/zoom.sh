@@ -1,1 +1,1 @@
-snap install zoom-client
+sudo snap install zoom-client

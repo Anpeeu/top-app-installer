@@ -1,2 +1,2 @@
 sudo apt install -y default-jdk
-snap install netbeans --classic
+sudo snap install netbeans --classic

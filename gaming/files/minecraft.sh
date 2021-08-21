@@ -1,3 +1,4 @@
 wget https://launcher.mojang.com/download/Minecraft.deb
-sudo apt install Minecraft.deb -y
+sudo apt install gdebi-core -y
+sudo gdebi Minecraft.deb -n
 rm Minecraft.deb
